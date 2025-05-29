@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(135, 233, 250);
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    background-color: blue;
+    padding: 10px;
+}
+
+#nav ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+#nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#pocetna {
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
+#p1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+#slika-pocetna {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+}
+
+#novosti {
+    font-weight: bold;
+    text-align: left;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#tim {
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px;
+}
+
+#slika-tim {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+}
+
+#najbolji {
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px;
+}
+
+#slika-najbolji {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+}
+
+#rezultati {
+    font-weight: bold;
+    text-align: left;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#stadion {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+#slika-stadion {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+}
+
+#historija {
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px;
+    padding: 5px;
+}
+
+div {
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+ul {
+    list-style-type: square;
+}
+
+#tim ul li {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#najbolji ul li {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#tim ul li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+#najbolji ul li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+#vrh {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    padding: 10px 17px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+(max-width: 768px) {
+    .hero h2 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
